@@ -1,0 +1,138 @@
+/* --- FLOG NO LADO ESQUERDO - CRÉDITOS: FLOGVIP/THRILLERXO --- */
+body {
+	body-align: right; width: 800px;   margin: auto;
+background-color: #F8F7F5;
+}
+
+/* -- Fonte -- */
+	p, a, body, td, tr, div {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: #777;
+	font-family: tahoma;
+	line-height: 11px;
+	cursor: crosshair;}
+
+/* BARRA */
+
+.navbar {
+padding: 0px;
+opacity: 0.3;}
+
+.navbar-brand { padding: 0px;
+color: #F5BFB3;
+opacity: 1.0;}
+
+/*-- LINKS --*/
+
+a:link,a:active,a:visited { color: #f6716a; text-decoration: none;}
+a:hover { color: # F3B095;}
+cursor: sw-resize; 
+}
+
+/*-- OPACIDADE NAS IMAGENS --*/
+
+img{
+   -webkit-transition: opacity 0.7s linear;
+   opacity: 1.0;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   -webkit-border-radius: 3px;
+   transition: all 2.0s ease-in;}
+
+img:hover{
+   -webkit-transition: opacity 0.7s linear;
+   opacity: 0.4;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -webkit-border-radius: 3px;
+   transition: all 2.0s ease-out;}
+
+/* --- BORDA DA IMAGEM --- */
+a img {
+	padding: 3px;
+        background-color: #F5BFB3;
+border-radius: 6px 6px 6px 6px;        
+}
+
+a:hover img {
+	padding: 3px;
+border-radius: 6px 6px 6px 6px;        
+        background-color: #F5BFB3;
+      }
+
+
+/** descrição **/
+#caixa{color:#777; background-color: #fff; padding:6px; border: 1px solid #fff; font-size: 12px; font-family: tahoma;}
+#sidebar {position:fixed; float: center; width:300px; left:30px; top:40px;text-align:justify;}
+
+/* -- TITULO E SUBTITULO -- */
+
+.titulo {
+font-family: tahoma;
+font-size: 12px;
+line-height: 11px;
+margin-left: 250px;
+background-color: #FFF7EF;
+border: 2px dashed #dfdfa9;
+-moz-border-radius: 2px 2px 2px 2px; 
+color: #F1BA93;
+width: 310px;
+}
+
+.subtitulo {
+color: # D1D799;
+font-size: 11px;
+background-color: #none;
+padding: 2px 2px 2px 2px;
+-moz-border-radius: 0px 0px 0px 0px;
+width: 90px;
+border-right: 1px dashed # F18769;
+border-left: 1px dashed # F18769;
+border-top: 1px dashed # F18769;
+border-bottom: 1px dashed # F18769;
+}
+
+/* -- Caixas TysonRitter -- */
+
+input, textarea {
+	color: #777;
+	font-family: verdana;
+	text-align: center;
+	font-size: 11px;
+	background-color: #ffffff;
+        border-bottom:1px dashed #f6716a;
+        border-left:1px dashed #f6716a;
+        border-right:1px dashed #f6716a;
+        border-top:1px dashed #f6716a;
+
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+.comentarios {
+	font-family: verdana; 
+        color: #f6716a;
+        background-color: #ffffff;
+        border: 1px dashed #E2ECA7;
+	font-size: 11px; 
+        padding: 5px;
+	-moz-border-radius: 6px 6px 6px 6px;
+         width: 340px;
+        }
+
+/* -- Seleção Colorida TysonRitter -- */
+
+::-moz-selection{background: #f4f0d5;} 
+::selection{background: #f4f0d5;}
+
+html { 	background: url(http://www.mediafire.com/convkey/de0e/d7cta7j4l1tzqxrzg.jpg) #f5f6f3;
+
+p {margin:0px; margin-top:5px;}
+a {text-decoration: none; color: #; -webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease-out; transition: all 0.5s ease-out;}
+a:hover{ text-decoration: none; color: #; -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; transition: all 0.1s ease-out;}
+a:active{outline: none;}
+a:focus{-moz-outline-style: none;}
+:-moz-any-link:focus{outline: none;}
+b{font-weight: bold;}
+
